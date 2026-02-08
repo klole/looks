@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "looks_hero": {
@@ -122,14 +131,16 @@
           }
         }
       },
-      "block_order": ["trust_1", "trust_2", "trust_3", "trust_4"]
+      "block_order": [
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "trust_4"
+      ],
+      "settings": {}
     },
     "looks_faq": {
       "type": "looks-faq",
-      "settings": {
-        "label": "FAQ",
-        "heading": "Frequently Asked Questions"
-      },
       "blocks": {
         "faq_1": {
           "type": "faq_item",
@@ -174,7 +185,18 @@
           }
         }
       },
-      "block_order": ["faq_1", "faq_2", "faq_3", "faq_4", "faq_5", "faq_6"]
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6"
+      ],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions"
+      }
     },
     "looks_final_cta": {
       "type": "looks-cta",
