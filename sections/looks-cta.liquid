@@ -1,0 +1,51 @@
+<section class="looks-cta" data-section-id="{{ section.id }}">
+  <div class="looks-cta__inner looks-reveal">
+    <h2 class="looks-cta__heading">{{ section.settings.heading }}</h2>
+    {%- if section.settings.subtext != blank -%}
+      <p class="looks-cta__sub">{{ section.settings.subtext }}</p>
+    {%- endif -%}
+    {%- if section.settings.button_label != blank -%}
+      <a href="{{ section.settings.button_link }}" class="looks-btn looks-btn--primary">
+        {{ section.settings.button_label }}
+      </a>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Looks: Final CTA",
+  "class": "looks-section",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your face sets the baseline. Elevate it."
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext",
+      "default": "LookElevate Recovery Serum · Starting at $39"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Elevate Your Skin"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link",
+      "default": "/collections/all"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Looks: Final CTA"
+    }
+  ]
+}
+{% endschema %}

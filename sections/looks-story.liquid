@@ -1,0 +1,106 @@
+<section class="looks-story looks-story--{{ section.settings.background }}" data-section-id="{{ section.id }}">
+  <div class="looks-story__inner looks-reveal">
+    {%- if section.settings.label != blank -%}
+      <div class="looks-story__label">{{ section.settings.label }}</div>
+    {%- endif -%}
+
+    {%- if section.settings.heading != blank -%}
+      <h2 class="looks-story__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    {%- if section.settings.body != blank -%}
+      <p class="looks-story__body">{{ section.settings.body }}</p>
+    {%- endif -%}
+
+    {%- if section.settings.show_accent_line -%}
+      <div class="looks-story__accent-line"></div>
+    {%- endif -%}
+
+    {%- if section.settings.detail != blank -%}
+      <p class="looks-story__detail">{{ section.settings.detail }}</p>
+    {%- endif -%}
+
+    {%- if section.settings.button_label != blank -%}
+      <div class="looks-story__cta">
+        {%- if section.settings.background == 'slate' or section.settings.background == 'charcoal' -%}
+          <a href="{{ section.settings.button_link }}" class="looks-btn looks-btn--primary">
+            {{ section.settings.button_label }}
+          </a>
+        {%- else -%}
+          <a href="{{ section.settings.button_link }}" class="looks-btn looks-btn--dark">
+            {{ section.settings.button_label }}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Looks: Story",
+  "class": "looks-section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "options": [
+        { "value": "offwhite", "label": "Off-White" },
+        { "value": "slate", "label": "Slate Blue" },
+        { "value": "warmgrey", "label": "Warm Grey" },
+        { "value": "charcoal", "label": "Charcoal" },
+        { "value": "white", "label": "White" }
+      ],
+      "default": "offwhite"
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section label",
+      "default": "THE PROBLEM"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "You handled the acne. The aftermath stuck around."
+    },
+    {
+      "type": "textarea",
+      "id": "body",
+      "label": "Body text",
+      "default": "Uneven texture that won't smooth out. Lingering marks that draw attention. Skin that looks worse under harsh lighting. You've put in the work everywhere else — your face didn't catch up."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_accent_line",
+      "label": "Show copper accent line",
+      "default": false
+    },
+    {
+      "type": "textarea",
+      "id": "detail",
+      "label": "Detail text (below accent line)",
+      "default": ""
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": ""
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link",
+      "default": "/collections/all"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Looks: Story"
+    }
+  ]
+}
+{% endschema %}

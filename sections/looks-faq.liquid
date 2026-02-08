@@ -1,0 +1,112 @@
+<section class="looks-faq" data-section-id="{{ section.id }}">
+  <div class="looks-faq__inner">
+    <div class="looks-faq__header looks-reveal">
+      <div class="looks-faq__label">{{ section.settings.label }}</div>
+      <h2 class="looks-faq__heading">{{ section.settings.heading }}</h2>
+    </div>
+
+    <div class="looks-faq__list">
+      {%- for block in section.blocks -%}
+        <details class="looks-faq__item" {{ block.shopify_attributes }}>
+          <summary class="looks-faq__question">
+            <span>{{ block.settings.question }}</span>
+            <span class="looks-faq__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="looks-faq__answer">
+            {{ block.settings.answer }}
+          </div>
+        </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Looks: FAQ",
+  "class": "looks-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section label",
+      "default": "FAQ"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "How long until I see results?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Most men start noticing smoother texture and gradual fading within 4–6 weeks of consistent daily use. Full results develop over 8–12 weeks. This isn't an overnight fix — it's a baseline upgrade.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Looks: FAQ",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>Most men start noticing smoother texture and gradual fading within 4–6 weeks of consistent daily use. Full results develop over 8–12 weeks. This isn't an overnight fix — it's a baseline upgrade.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I use this with other products?",
+            "answer": "<p>Yes. The lightweight formula absorbs quickly and layers easily under moisturizer or SPF. It fits into any minimal routine without conflict.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is this safe for sensitive skin?",
+            "answer": "<p>The formula is fragrance-free with no harsh actives. GHK-Cu (Copper Tripeptide-1) is a naturally occurring peptide in the body, making it generally well-tolerated. If you have specific sensitivities, patch test first.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does this help with acne scars?",
+            "answer": "<p>It's designed to help improve the appearance of post-acne texture and marks by supporting your skin's natural repair processes. It works on the aftermath — not active breakouts.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is it fragrance-free?",
+            "answer": "<p>Yes. No fragrance, no essential oils. The formula is designed to be invisible in your routine — you won't smell it.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often should I use it?",
+            "answer": "<p>Once daily, applied to clean, dry skin. That's the entire routine. Consistency matters more than quantity.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

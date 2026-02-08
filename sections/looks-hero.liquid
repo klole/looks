@@ -1,0 +1,78 @@
+<section class="looks-hero" data-section-id="{{ section.id }}">
+  <div class="looks-hero__inner looks-reveal">
+    <span class="looks-hero__label">{{ section.settings.label }}</span>
+    <h1 class="looks-hero__heading">{{ section.settings.heading }}</h1>
+    <p class="looks-hero__body">{{ section.settings.body }}</p>
+    <div class="looks-hero__actions">
+      {%- if section.settings.button_label != blank -%}
+        <a href="{{ section.settings.button_link }}" class="looks-btn looks-btn--primary">
+          {{ section.settings.button_label }}
+        </a>
+      {%- endif -%}
+      {%- if section.settings.secondary_label != blank -%}
+        <a href="{{ section.settings.secondary_link }}" class="looks-btn--link" style="color: rgba(245,244,242,0.6);">
+          {{ section.settings.secondary_label }}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="looks-hero__scroll">
+    <span>Scroll</span>
+    <div class="looks-hero__scroll-line"></div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Looks: Hero",
+  "class": "looks-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Label",
+      "default": "Skin Recovery for Men"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Elevate your appearance — starting with your skin."
+    },
+    {
+      "type": "textarea",
+      "id": "body",
+      "label": "Body text",
+      "default": "A recovery-focused serum built on copper peptide science. No complicated routine. No cosmetic fluff. Just consistent recovery."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Primary button label",
+      "default": "Elevate Your Skin"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Primary button link",
+      "default": "/collections/all"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Secondary link label",
+      "default": "Learn How It Works"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Secondary link URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Looks: Hero"
+    }
+  ]
+}
+{% endschema %}

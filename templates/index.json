@@ -1,943 +1,201 @@
 {
   "sections": {
-    "hero_main": {
-      "type": "section",
-      "blocks": {
-        "hero_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SKIN RECOVERY FOR MEN</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "hero_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Elevate your appearance \u2014 starting with your skin.</h1>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h1",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 8,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "hero_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A recovery-focused serum built on copper peptide science. No complicated routine. No cosmetic fluff. Just consistent recovery.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "hero_cta": {
-          "type": "button",
-          "settings": {
-            "label": "Elevate Your Skin",
-            "link": "/collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "width_mobile": "fit-content"
-          },
-          "blocks": {}
-        },
-        "hero_cta2": {
-          "type": "button",
-          "settings": {
-            "label": "Learn How It Works",
-            "link": "#science",
-            "open_in_new_tab": false,
-            "style_class": "link",
-            "width": "fit-content",
-            "width_mobile": "fit-content"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "hero_label",
-        "hero_heading",
-        "hero_body",
-        "hero_cta",
-        "hero_cta2"
-      ],
-      "name": "Hero",
+    "looks_hero": {
+      "type": "looks-hero",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 8,
-        "section_width": "page-width",
-        "section_height": "large",
-        "section_height_custom": 80,
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "padding-block-start": 120,
-        "padding-block-end": 100
+        "label": "Skin Recovery for Men",
+        "heading": "Elevate your appearance — starting with your skin.",
+        "body": "A recovery-focused serum built on copper peptide science. No complicated routine. No cosmetic fluff. Just consistent recovery.",
+        "button_label": "Elevate Your Skin",
+        "button_link": "/collections/all",
+        "secondary_label": "Learn How It Works",
+        "secondary_link": ""
       }
     },
-    "problem_section": {
-      "type": "section",
-      "blocks": {
-        "problem_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE PROBLEM</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "problem_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>You handled the acne. The aftermath stuck around.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "problem_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Uneven texture that won\u2019t smooth out. Lingering marks that draw attention. Skin that looks worse under harsh lighting. You\u2019ve put in the work everywhere else \u2014 your face didn\u2019t catch up.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "problem_label",
-        "problem_heading",
-        "problem_body"
-      ],
-      "name": "Problem",
+    "looks_problem": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-1",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "offwhite",
+        "label": "THE PROBLEM",
+        "heading": "You handled the acne. The aftermath stuck around.",
+        "body": "Uneven texture that won't smooth out. Lingering marks that draw attention. Skin that looks worse under harsh lighting. You've put in the work everywhere else — your face didn't catch up.",
+        "show_accent_line": false,
+        "detail": "",
+        "button_label": "",
+        "button_link": "/collections/all"
       }
     },
-    "solution_section": {
-      "type": "section",
-      "blocks": {
-        "solution_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE SOLUTION</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "solution_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>This isn\u2019t skincare. It\u2019s recovery.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "solution_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The LookElevate Recovery Serum is built for men dealing with the after\u2011effects of acne \u2014 uneven texture, lingering marks, and skin that never fully reset. Instead of masking issues, it supports your skin\u2019s natural repair processes to help improve tone, smooth texture, and promote healthier-looking skin over time.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "solution_cta": {
-          "type": "button",
-          "settings": {
-            "label": "Elevate Your Skin",
-            "link": "/collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "width_mobile": "fit-content"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "solution_label",
-        "solution_heading",
-        "solution_body",
-        "solution_cta"
-      ],
-      "name": "Solution",
+    "looks_solution": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "slate",
+        "label": "THE SOLUTION",
+        "heading": "This isn't skincare. It's recovery.",
+        "body": "The LookElevate Recovery Serum is built for men dealing with the after-effects of acne — uneven texture, lingering marks, and skin that never fully reset. Instead of masking issues, it supports your skin's natural repair processes to help improve tone, smooth texture, and promote healthier-looking skin over time.",
+        "show_accent_line": false,
+        "detail": "",
+        "button_label": "Elevate Your Skin",
+        "button_link": "/collections/all"
       }
     },
-    "science_section": {
-      "type": "section",
-      "blocks": {
-        "science_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE SCIENCE</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "science_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Built on a peptide your skin already recognizes.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "science_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At the core of the formula is GHK-Cu \u2014 a naturally occurring copper peptide involved in skin repair and renewal. It supports collagen structure and skin resilience, helping improve the appearance of texture and post-acne marks when used consistently.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "science_benefits": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Supports collagen and elastin production \u00b7 Improves skin firmness \u00b7 Reduces appearance of fine lines \u00b7 Enhances skin texture and hydration \u00b7 Promotes cellular renewal</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 16,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "science_label",
-        "science_heading",
-        "science_body",
-        "science_benefits"
-      ],
-      "name": "Science",
+    "looks_science": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-1",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "white",
+        "label": "THE SCIENCE",
+        "heading": "Built on a peptide your skin already recognizes.",
+        "body": "At the core of the formula is GHK-Cu — a naturally occurring copper peptide involved in skin repair and renewal. It supports collagen structure and skin resilience, helping improve the appearance of texture and post-acne marks when used consistently.",
+        "show_accent_line": true,
+        "detail": "Supports collagen + elastin production · Improves firmness · Reduces fine lines · Enhances texture + hydration · Promotes cellular renewal",
+        "button_label": "",
+        "button_link": ""
       }
     },
-    "results_section": {
-      "type": "section",
-      "blocks": {
-        "results_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>WHAT TO EXPECT</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "results_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>What changes \u2014 and what doesn\u2019t.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "results_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With daily use, men typically notice smoother-looking skin texture, gradual fading of old marks, more even tone under real lighting, and skin that looks healthier and more composed. This isn\u2019t an overnight fix. It\u2019s a baseline upgrade.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "results_label",
-        "results_heading",
-        "results_body"
-      ],
-      "name": "Results",
+    "looks_results": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "warmgrey",
+        "label": "WHAT TO EXPECT",
+        "heading": "What changes — and what doesn't.",
+        "body": "With daily use, men typically notice smoother-looking skin texture, gradual fading of old marks, more even tone under real lighting, and skin that looks healthier and more composed. This isn't an overnight fix. It's a baseline upgrade.",
+        "show_accent_line": false,
+        "detail": "",
+        "button_label": "",
+        "button_link": ""
       }
     },
-    "routine_section": {
-      "type": "section",
-      "blocks": {
-        "routine_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>YOUR ROUTINE</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "routine_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>One step. No routine overhaul.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "routine_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Apply once daily to clean, dry skin. That\u2019s it. The lightweight serum absorbs quickly and layers easily into a minimal routine. No fragrance. No harsh actives. No complicated steps.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "routine_label",
-        "routine_heading",
-        "routine_body"
-      ],
-      "name": "Routine",
+    "looks_routine": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "slate",
+        "label": "YOUR ROUTINE",
+        "heading": "One step. No routine overhaul.",
+        "body": "Apply once daily to clean, dry skin. That's it. The lightweight serum absorbs quickly and layers easily into a minimal routine. No fragrance. No harsh actives. No complicated steps.",
+        "show_accent_line": false,
+        "detail": "",
+        "button_label": "",
+        "button_link": ""
       }
     },
-    "whoisitfor_section": {
-      "type": "section",
-      "blocks": {
-        "who_label": {
-          "type": "text",
-          "settings": {
-            "text": "<p>WHO IT\u2019S FOR</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "who_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>LookElevate is for men who...</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 8,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "who_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Want visible skin improvement without cosmetic fluff. Are past active acne but dealing with what it left behind. Value refinement, not hype. Have tried other products that felt basic or excessive. Want one step that actually works.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "who_label",
-        "who_heading",
-        "who_body"
-      ],
-      "name": "Who It's For",
+    "looks_audience": {
+      "type": "looks-story",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 4,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-1",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "background": "offwhite",
+        "label": "WHO IT'S FOR",
+        "heading": "LookElevate is for men who...",
+        "body": "Want visible skin improvement without cosmetic fluff. Are past active acne but dealing with what it left behind. Value refinement, not hype. Have tried other products that felt basic or excessive. Want one step that actually works.",
+        "show_accent_line": false,
+        "detail": "",
+        "button_label": "",
+        "button_link": ""
       }
     },
-    "trust_section": {
-      "type": "section",
+    "looks_trust": {
+      "type": "looks-trust",
       "blocks": {
-        "trust_text": {
-          "type": "text",
+        "trust_1": {
+          "type": "trust_item",
           "settings": {
-            "text": "<p>Free Shipping \u00a0\u00b7\u00a0 30-Day Guarantee \u00a0\u00b7\u00a0 Fragrance-Free \u00a0\u00b7\u00a0 Science-Backed Ingredient</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "#6C7A89",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
+            "text": "Free Shipping",
+            "icon": "shipping"
+          }
+        },
+        "trust_2": {
+          "type": "trust_item",
+          "settings": {
+            "text": "30-Day Guarantee",
+            "icon": "guarantee"
+          }
+        },
+        "trust_3": {
+          "type": "trust_item",
+          "settings": {
+            "text": "Fragrance-Free",
+            "icon": "fragrance"
+          }
+        },
+        "trust_4": {
+          "type": "trust_item",
+          "settings": {
+            "text": "Science-Backed",
+            "icon": "science"
+          }
         }
       },
-      "block_order": [
-        "trust_text"
-      ],
-      "name": "Trust Bar",
-      "settings": {
-        "content_direction": "row",
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "horizontal_alignment_flex_direction_column": "center",
-        "gap": 24,
-        "section_width": "page-width",
-        "section_height": "auto",
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 32,
-        "padding-block-end": 32
-      }
+      "block_order": ["trust_1", "trust_2", "trust_3", "trust_4"]
     },
-    "final_cta_section": {
-      "type": "section",
+    "looks_faq": {
+      "type": "looks-faq",
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions"
+      },
       "blocks": {
-        "final_heading": {
-          "type": "text",
+        "faq_1": {
+          "type": "faq_item",
           "settings": {
-            "text": "<h2>Your face sets the baseline. Elevate it.</h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
+            "question": "How long until I see results?",
+            "answer": "<p>Most men start noticing smoother texture and gradual fading within 4–6 weeks of consistent daily use. Full results develop over 8–12 weeks. This isn't an overnight fix — it's a baseline upgrade.</p>"
+          }
         },
-        "final_body": {
-          "type": "text",
+        "faq_2": {
+          "type": "faq_item",
           "settings": {
-            "text": "<p>LookElevate Recovery Serum \u00b7 Starting at $39</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 8,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
+            "question": "Can I use this with other products?",
+            "answer": "<p>Yes. The lightweight formula absorbs quickly and layers easily under moisturizer or SPF. It fits into any minimal routine without conflict.</p>"
+          }
         },
-        "final_cta": {
-          "type": "button",
+        "faq_3": {
+          "type": "faq_item",
           "settings": {
-            "label": "Elevate Your Skin",
-            "link": "/collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "width_mobile": "fit-content"
-          },
-          "blocks": {}
+            "question": "Is this safe for sensitive skin?",
+            "answer": "<p>The formula is fragrance-free with no harsh actives. GHK-Cu (Copper Tripeptide-1) is a naturally occurring peptide in the body, making it generally well-tolerated. If you have specific sensitivities, patch test first.</p>"
+          }
+        },
+        "faq_4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does this help with acne scars?",
+            "answer": "<p>It's designed to help improve the appearance of post-acne texture and marks by supporting your skin's natural repair processes. It works on the aftermath — not active breakouts.</p>"
+          }
+        },
+        "faq_5": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is it fragrance-free?",
+            "answer": "<p>Yes. No fragrance, no essential oils. The formula is designed to be invisible in your routine — you won't smell it.</p>"
+          }
+        },
+        "faq_6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often should I use it?",
+            "answer": "<p>Once daily, applied to clean, dry skin. That's the entire routine. Consistency matters more than quantity.</p>"
+          }
         }
       },
-      "block_order": [
-        "final_heading",
-        "final_body",
-        "final_cta"
-      ],
-      "name": "Final CTA",
+      "block_order": ["faq_1", "faq_2", "faq_3", "faq_4", "faq_5", "faq_6"]
+    },
+    "looks_final_cta": {
+      "type": "looks-cta",
       "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 8,
-        "section_width": "page-width",
-        "section_height": "medium",
-        "color_scheme": "scheme-5",
-        "background_media": "none",
-        "border": "none",
-        "border_width": 0,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "heading": "Your face sets the baseline. Elevate it.",
+        "subtext": "LookElevate Recovery Serum · Starting at $39",
+        "button_label": "Elevate Your Skin",
+        "button_link": "/collections/all"
       }
     }
   },
   "order": [
-    "hero_main",
-    "problem_section",
-    "solution_section",
-    "science_section",
-    "results_section",
-    "routine_section",
-    "whoisitfor_section",
-    "trust_section",
-    "final_cta_section"
+    "looks_hero",
+    "looks_problem",
+    "looks_solution",
+    "looks_science",
+    "looks_results",
+    "looks_routine",
+    "looks_audience",
+    "looks_trust",
+    "looks_faq",
+    "looks_final_cta"
   ]
 }
