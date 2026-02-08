@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:names.header",
@@ -8,26 +17,12 @@
         "announcement_shipping": {
           "type": "_announcement",
           "settings": {
-            "text": "Free shipping on all orders \u00b7 30-day satisfaction guarantee",
+            "text": "Free shipping on all orders · 30-day satisfaction guarantee",
             "link": "",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
             "font": "var(--font-body--family)",
             "font_size": "0.75rem",
-            "line_height": "normal",
             "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "nowrap",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "case": "uppercase"
           },
           "blocks": {}
         }
@@ -37,10 +32,7 @@
       ],
       "settings": {
         "section_width": "full-width",
-        "alignment": "center",
         "color_scheme": "scheme-5",
-        "auto_rotate": false,
-        "rotation_speed": 5,
         "padding-block-start": 8,
         "padding-block-end": 8
       }
@@ -53,8 +45,6 @@
           "static": true,
           "settings": {
             "hide_logo_on_home_page": false,
-            "custom_height": 24,
-            "custom_height_mobile": 20,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -67,21 +57,15 @@
           "static": true,
           "settings": {
             "menu": "main-menu",
+            "color_scheme": "",
+            "type_font_primary_size": "0.875rem",
+            "menu_font_style": "default",
+            "type_font_primary_link": "body",
+            "type_case_primary_link": "uppercase",
             "menu_style": "mega_menu",
             "featured_products_aspect_ratio": "4 / 5",
             "featured_collections_aspect_ratio": "16 / 9",
             "image_border_radius": 0,
-            "product_title_case": "default",
-            "collection_title_case": "default",
-            "color_scheme": "",
-            "menu_font_style": "default",
-            "type_font_primary_link": "body",
-            "type_font_primary_size": "0.875rem",
-            "type_case_primary_link": "uppercase",
-            "type_font_secondary_link": "secondary",
-            "type_case_secondary_link": "none",
-            "type_font_tertiary_link": "secondary",
-            "type_case_tertiary_link": "none",
             "navigation_bar": false,
             "color_scheme_navigation_bar": "",
             "drawer_accordion": false,
